@@ -1,0 +1,2 @@
+webpackJsonp([23],{hhUg:function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var s={render:function(){var t=this.$createElement,e=this._self._c||t;return e("div",{staticClass:"container"},[e("div",{staticClass:"header border-bottom"},[e("router-link",{staticClass:"back iconfont",attrs:{to:"/my"}},[this._v("")]),this._v("\n    聊天\n  ")],1)])},staticRenderFns:[]},a=n("VU/8")({name:"message"},s,!1,function(t){n("rUE0")},"data-v-02f388ea",null);e.default=a.exports},rUE0:function(t,e){}});
+//# sourceMappingURL=23.3b6489b2a07cace4c54c.js.map

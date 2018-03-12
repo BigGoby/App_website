@@ -1,0 +1,115 @@
+登录页users
+	id 用户的id
+	phone 手机号
+	phone_num 验证码
+	pwd 用户设置的密码
+
+个人资料personal
+	id 个人资料的id
+	picture 用户的头像
+	nickname 用户的昵称
+	sex 用户的性别
+	address 用户的地址
+	birthday 用户的生日
+	introduce 个人简介
+	user_id 关联users表的id
+
+找设计design
+	id 设计表的id
+	logo 公司的logo
+	title 标题
+	company 公司名称
+	address 公司地址
+	content 内容
+	pid 关联personal表中的id
+
+写日记diary
+	id 表的id
+	titel 标题
+	imgUrl 图片的url
+	house_money 装修花费
+	usable_area	房屋面积
+	house_type	房屋类型
+	house_style	房屋样式	
+	content 内容
+	pid 用户的id
+
+学装修topics
+	id 话题的id
+	top_img 话题的图片
+	top_title 话题的标题
+	house_type 户型
+	usable_area 使用面积
+	ratchadapisek 房屋位置
+	decorate_cost 装修花费
+	top_content 话题的内容
+	count 收藏的次数
+	comment 编辑说
+	floor_plan 户型图
+	house_type_content 户型内容
+	pid 发表话题的用户的id
+
+提问题posts
+	id 问题的id
+	rid 0代表发 1代表回答
+	title 问题的描述
+	pimg 图片
+	create_time 创建时间
+	content 帖子的内容
+	counts 多少人浏览
+	pid 回答的问题的id
+	p_id 关联personal表中的id
+
+灵感styles
+	id 表的id
+	imgUrl 图片的url
+	describe 描述
+	type 类型
+	pid 用户的id
+
+系统消息的表information
+	id 消息的id
+	imgurl 图片的id
+	titel 标题
+	time 时间
+	content 内容
+
+
+
+
+收藏collects
+	id 
+	img_id 收藏的图片
+	topics_id 收藏的话题id
+	pid 收藏的id
+
+
+正在讨论underdiscussion
+	id 表的id
+	title 问题的描述
+	content 帖子的内容
+	imgurl 图片的地址
+
+
+正在讨论内容的表udcontent
+	id 表的id
+	content 帖子的内容
+	ud_id 讨论表的id
+	pid 用户的id
+
+
+话题的表topics_one
+	id 表的id
+	title 问题的描述
+	content 帖子的内容
+
+
+话题的表topics_udcontent
+	id 表的id
+	content 帖子的内容
+	imgUrl1 图片1	
+	imgUrl2 图片2
+	imgUrl3 图片3
+	topics_one_id 话题表的id
+	pid 谁发表的
+
