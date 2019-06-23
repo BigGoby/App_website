@@ -6,15 +6,15 @@
 
 下载项目:
 
-git clone https://github.com/BigGoby/App_website.git
+    git clone https://github.com/BigGoby/App_website.git
 
 安装依赖包:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 运行项目:
 
-python manage.py runserver 
+    python manage.py runserver 
 
 
 
